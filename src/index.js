@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Search from './Basics/Search';
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Monster from './Component/CardList/Monster';
+import UserSearch from './Component/test';
+import Header from './Component/Header/Header';
+import LOLMenu from './Component/LOLCard/LOLMenu/LOLMenu';
+import ChampionDetail from './Component/LOLCard/LOLDetail/ChampionDetail';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Header></Header>
+    <Monster></Monster>
+    <UserSearch></UserSearch> */}
+    {/* <LOLMenu></LOLMenu> */}
+    <ChampionDetail></ChampionDetail>
+    <Router>
+
+    </Router>
   </React.StrictMode>
 );
 

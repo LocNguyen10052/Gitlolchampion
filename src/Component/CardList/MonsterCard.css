@@ -1,0 +1,23 @@
+.Monster-Card {
+    background-color: rgb(136, 212, 210);
+
+    border-radius: 20px;
+    /* Bo góc cho thẻ */
+    padding: 20px;
+    /* Thêm khoảng đệm bên trong */
+    margin: 10px;
+    /* Thêm khoảng cách xung quanh thẻ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Thêm bóng đổ nhẹ */
+    transition: transform 0.2s;
+    /* Hiệu ứng chuyển động khi hover */
+}
+
+.Monster-Card:hover {
+
+    /* Thay đổi màu chữ khi hover */
+
+    /* Tăng kích thước chữ khi hover */
+    transform: scale(1.05);
+    /* Phóng to nhẹ khi hover */
+}

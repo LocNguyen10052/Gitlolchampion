@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.Header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    /* Kích thước chữ */
+    color: #43C4BB
+        /* Màu chữ */
+
+}
+
+h1 {}

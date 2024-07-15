@@ -1,0 +1,15 @@
+.ChampionDetail {
+    padding: 0;
+    margin: 0;
+}
+
+.ChampionDetail-image {
+    padding: 0;
+    margin: 0;
+}
+
+.item:hover {
+    cursor: pointer;
+    /* Con trỏ hình bàn tay khi hover */
+
+}
